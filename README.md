@@ -29,41 +29,43 @@ Tremor, a neurological condition, produces uncontrollable convulsions due to unu
 <li>So, using deep learning with brain images can help doctors better understand and treat epilepsy in a way that fits each person's needs.<br></li>
 
 # Problem Identification
--->Epilepsy is a disorder of the brain caused by repeated seizures. A seizure is usually defined as a sudden alteration of behavior due to a temporary change in the electrical functioning of the brain.<br>
--->Understanding epilepsy issues is crucial for improvement. Diagnosing and treating epilepsy can be tricky due to individual differences. Reliable seizure prediction tools are essential.<br> 
--->Beyond medical aspects, supporting individuals in all aspects of life is important. Disparities in access to assistance are unfair, and some may feel excluded due to epilepsy.<br>
--->Special attention is needed for the elderly and children with epilepsy. While using wearable technology is a good idea, caution is required. Collaboration among healthcare professionals, scientists, and advocates is necessary to enhance epilepsy care.<br>
--->To simplify the process, we've opted to develop a deep learning model capable of forecasting epilepsy occurrences in advance. This model will not only predict seizures but also provide personalized precautions and warnings to individuals, aiming to enhance their overall quality of life.<br>
+<li>Epilepsy is a disorder of the brain caused by repeated seizures. A seizure is usually defined as a sudden alteration of behavior due to a temporary change in the electrical functioning of the brain.</li>
+<li>Understanding epilepsy issues is crucial for improvement. Diagnosing and treating epilepsy can be tricky due to individual differences. Reliable seizure prediction tools are essential.</li>
+<li>Beyond medical aspects, supporting individuals in all aspects of life is important. Disparities in access to assistance are unfair, and some may feel excluded due to epilepsy.</li>
+<li>Special attention is needed for the elderly and children with epilepsy. While using wearable technology is a good idea, caution is required. Collaboration among healthcare professionals, scientists, and advocates is necessary to enhance epilepsy care.</li>
+<li>To simplify the process, we've opted to develop a deep learning model capable of forecasting epilepsy occurrences in advance. This model will not only predict seizures but also provide personalized precautions and warnings to individuals, aiming to enhance their overall quality of life.</li>
 
 
 
 # Objective of Problem
--->Develop a deep learning Algorithm for personalized detection and precautionary Guidance for Epilepsy Disease for enhancing the safety.<br>
--->Personalized Care: DL models can be tailored to individual patients, taking into account their specific seizure patterns and triggers. This enables personalized care plans and interventions, which can be more effective in managing epilepsy.<br>
--->Reduced Hospitalizations: Early prediction can lead to reduced hospital admissions due to epilepsy related seizures, which can lower healthcare costs and improve the overall health of patients.<br>
+<li>Develop a deep learning Algorithm for personalized detection and precautionary Guidance for Epilepsy Disease for enhancing the safety.</li>
+<li>Personalized Care: DL models can be tailored to individual patients, taking into account their specific seizure patterns and triggers. This enables personalized care plans and interventions, which can be more effective in managing epilepsy.</li>
+<li>Reduced Hospitalizations: Early prediction can lead to reduced hospital admissions due to epilepsy related seizures, which can lower healthcare costs and improve the overall health of patients.</li>
 
 
 # Input Data/Tools Used
-Data Input Format<br>
-<li>Patinent sumbit required details such as MRI scans,Personal details.</li><br>
+##Data Input Format<br>
+<li>Patinent sumbit required details such as MRI scans,Personal details.</li>
+<li>MRI images preprocessed for compatibility with deep learning models.</li>
+<li>Data augmentation techniques applied to increase the diversity and size of the training dataset.</li>
+<li>Features extracted from MRI images using convolutional neural networks (CNNs) or similar architectures, capturing relevant patterns and structures indicative of epilepsy.</li>
+<li>Deplays patient affeted or not and give precautions & warning.</li>
 
-ML Model by using training & testing data give’s result.<br>
-
-Deplays patient affeted or not and give precautions & warning.<br>
-
-Tools Used<br>
-Software Requirements: Pycharm for front-end and back-end development.<br>
-
-Hardware Requirements: Any Hardware as Mobile, Ipad, Laptop or Desktop<br>
-
-Programming Requirements<br>
-Front-End : HTML (To Deisgn Web Page)<br>
-
-Back-End : Python (Flask)<br>
+##Tools Used<br>
+Software Tools Requirements:<br>
+<li>Programming Language:Python for deep learning model implementation.</li>
+<li>Deep Learning Frameworks: TensorFlow, Keras, or PyTorch for building and training CNN models.</li>
+<li>Libraries: Pandas and NumPy for data manipulation and preprocessing.</li>
+<li>Web Development: Flask for web application development.</li>
+<li>User Interface: HTML/CSS for designing the user interface.</li>
+<li>Data Management: Excel or CSV for storing and managing patient data.</li>
+Hardware Requirements:<br>
+<li>Accelerated Computing: GPUs or cloud-based services for deep learning model training and inference.</li>
+<li>Computing Devices: Laptops, desktops, or servers for running the web application and managing data.</li>
 
 
 # Implementation
-![image](https://github.com/shivanipoosala/Epilepsy-Disease-Early-Warning-Using-Machine-Learning-Algorithms-Approaches/assets/93851816/e53a2edb-5847-4987-b2ef-bf042b6e3668)
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikPps_KDdgsC0E0Nu8Mc5jDLS5ffgZwRvfKdPzVyFVMI6A7bkNBceHaiiANbAM-f2uT7r6ImySEfQhzW5rFBGeusRjnBLW9dmJ7YVgBTbhrf1ffZpcb9080v8CaELPXeBsNLDCK5tSs2cGgD3whT5a6JK3NtBqBhQexrDmxjZsxYjBrhzIXTacSZGTtA/s1126/Implementation_dl.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="571" data-original-width="1126" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikPps_KDdgsC0E0Nu8Mc5jDLS5ffgZwRvfKdPzVyFVMI6A7bkNBceHaiiANbAM-f2uT7r6ImySEfQhzW5rFBGeusRjnBLW9dmJ7YVgBTbhrf1ffZpcb9080v8CaELPXeBsNLDCK5tSs2cGgD3whT5a6JK3NtBqBhQexrDmxjZsxYjBrhzIXTacSZGTtA/s600/Implementation_dl.JPG"/></a></div>
 
 Steps:<br>
 1. Data Preparation:<br>
