@@ -103,8 +103,8 @@ Hardware Requirements:<br>
         <li>Maintain the web application to address any issues, enhance features, and incorporate advancements in deep learning techniques or medical knowledge.</li>
 
 
-<!--Working of Web App-->
-<h2 id="web-app">Working of Web App</h2>
+
+# Working of Web App
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC6AWTOivZ6n1GvCgQEXYdNGuvEb_RNNZAqCEHipzzRx2fXFLgrQqqZS3aTNNPmIbJpZIe0O6h0Goil6-PQlqCBIzfGOcu7ICPxOdkK1__jjUM5x7cvWprAXGeazy0sdsIXlgN5EnSYOCvvbxJlWB3dDjZDpdtZgXWbTH-cN-nh9L2swPA8KlqS4VQXQ/s1280/working_of_webapp.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC6AWTOivZ6n1GvCgQEXYdNGuvEb_RNNZAqCEHipzzRx2fXFLgrQqqZS3aTNNPmIbJpZIe0O6h0Goil6-PQlqCBIzfGOcu7ICPxOdkK1__jjUM5x7cvWprAXGeazy0sdsIXlgN5EnSYOCvvbxJlWB3dDjZDpdtZgXWbTH-cN-nh9L2swPA8KlqS4VQXQ/s600/working_of_webapp.png"/></a></div>
 
@@ -120,8 +120,8 @@ Hardware Requirements:<br>
 
 
 
-    <!--Results Section-->
-    <h2 id="results">Results and Analysis</h2>
+
+# Results and Analysis
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7Pk3nugyaxuHOka46DKYUAiakG5jvtPBtXxQ8pspQMi2PrV9zIH5ne7WNBgSTeHzO4_fqrDdi6IL_8YEd6Jm_tZ0128IzagQ0X_xpcJmJ5S-5VdYmjmhbab01W5dEIwISW5dqIIm_7tbz8czzFD06KoRc8j0wp8bs0x7u6QAVXmpZyl6onQ4NdxueNQ/s572/accuracy5.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="428" data-original-width="572" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7Pk3nugyaxuHOka46DKYUAiakG5jvtPBtXxQ8pspQMi2PrV9zIH5ne7WNBgSTeHzO4_fqrDdi6IL_8YEd6Jm_tZ0128IzagQ0X_xpcJmJ5S-5VdYmjmhbab01W5dEIwISW5dqIIm_7tbz8czzFD06KoRc8j0wp8bs0x7u6QAVXmpZyl6onQ4NdxueNQ/s600/accuracy5.JPG"/></a></div>
 
@@ -192,9 +192,8 @@ This prediction, and probability of class is then passed to a render template. <
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGBB87tb4hdVDDaCuAX5AvH85kblGAvkf3COVVxyBSTgST0NdOWZlkrE9eLcVkdnE1Co6pG4x9kN03BVCx2pMaEbznJyQZ1KcSvPDo1XJdQ6AdqKgGSF9swg3g9i79HTcXEOoCHT77byDMFjJyKkkpYOSFlatGJCIh3WT6zb1CtfKUTJynlKc5GwEfvQ/s1886/e7.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="908" data-original-width="1886" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGBB87tb4hdVDDaCuAX5AvH85kblGAvkf3COVVxyBSTgST0NdOWZlkrE9eLcVkdnE1Co6pG4x9kN03BVCx2pMaEbznJyQZ1KcSvPDo1XJdQ6AdqKgGSF9swg3g9i79HTcXEOoCHT77byDMFjJyKkkpYOSFlatGJCIh3WT6zb1CtfKUTJynlKc5GwEfvQ/s600/e7.JPG"/></a></div>
 
 
-    <!--Future Scope Section-->
-    <h2 id="future-scope">Future Scope</h2>
-    <p></p><h3>1 . Enhanced Image Analysis Techniques:</h3> Develop more advanced image analysis techniques using deep learning to extract intricate details and patterns from brain images related to epilepsy. This includes exploring new neural network architectures, feature extraction methods, and image augmentation techniques.
+# Future Scope
+## 1 . Enhanced Image Analysis Techniques:</h3> Develop more advanced image analysis techniques using deep learning to extract intricate details and patterns from brain images related to epilepsy. This includes exploring new neural network architectures, feature extraction methods, and image augmentation techniques.
 <br /><h3>2 . Multi-Modal Data Integration:</h3>Integrate multiple imaging modalities such as MRI, CT scans, PET scans, and EEG data to create a comprehensive view of brain activity and abnormalities associated with epilepsy. Combining data from different sources can improve diagnostic accuracy and personalized treatment planning.
 <br /><h3>3 . Real-Time Monitoring and Prediction:</h3> Implement real-time monitoring systems that continuously analyze brain images for signs of epileptic activity. Develop predictive models that can forecast epileptic events before they occur, allowing for timely intervention and precautionary measures.
 <br /><h3>4 . Longitudinal Analysis and Progression Tracking: </h3>Perform longitudinal analysis of brain images over time to track disease progression, treatment effectiveness, and potential changes in epilepsy patterns. Use deep learning algorithms to identify subtle changes and predict future outcomes for personalized patient management.
@@ -205,13 +204,12 @@ This prediction, and probability of class is then passed to a render template. <
 <br /><h3>7 . Virtual Reality and Simulation for Training: </h3>Utilize virtual reality (VR) environments and simulation platforms for training deep learning models on large-scale image datasets. VR-based simulations can enhance model generalization, adaptability, and robustness to diverse imaging scenarios.
 <p></p>
 
-    <!--Conclusion Section-->
-    <h2 id="conclusion">Conclusion</h2>
+
+# Conclusion
     <p>An important advancement in neurological care is the use of deep learning techniques for customized identification and preventive advice in the management of epilepsy. Individualized diagnosis and preventative actions can be put into place by using algorithms to examine patterns of brain activity. This improves patient outcomes and seizure control. This method not only improves on conventional diagnostic methods but also gives medical personnel the ability to precisely and promptly intervene, giving people with epilepsy hope for a higher quality of life. Deep learning has great promise for revolutionizing the management of epilepsy and ushering in a new era of customized care in neurological medicine, provided research in this subject continues to advance.</p>
 
-    <!--References Section-->
-    <h2 id="references">References</h2>
-    <p>
+
+# References
 [1]<a href="https://www.hindawi.com/journals/cmmm/2017/9074759/" target="_blank">https://www.hindawi.com/journals/cmmm/2017/9074759/</a>
 [2]<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9481757/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9481757/</a>
 [3]<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9548615/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9548615/</a>
