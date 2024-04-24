@@ -24,27 +24,29 @@ References<br>
 Tremor, a neurological condition, produces uncontrollable convulsions due to unusual brain activity, resulting in a variety of symptoms including convulsions, altered awareness, and behavioural changes. Researchers are working on algorithms to detect and forecast epileptic seizures by examining brain activity and extracting relevant information. This helps identify patterns related with seizures. Deep learning approaches improve standard generalist diagnosis by delivering individualized insight. By personalizing detection to each patient, this technique has the potential to improve epilepsy management and patient outcomes. In order to provide more individualized diagnosis and therapy, researchers are using algorithms that use brain activity analysis to identify and forecast epileptic seizures. Traditional diagnostic approaches are improved by deep learning algorithms, which offer personalized insights for every patient. Better patient outcomes could result from this tailored approach to epilepsy therapy, which has the potential to transform the field. In an effort to provide more individualized care, researchers are using algorithms to evaluate brain activity in order to detect and forecast epileptic seizures. Innovations in deep learning augment conventional approaches, offering personalized insights for every patient. With the potential to enhance patient outcomes, this personalized approach has the potential to revolutionize the therapy of epilepsy.
 
 # Introduction
-Epilepsy is a condition where people have recurring seizures. Figuring out the best treatment can be tricky because it varies a lot from person to person. But now, new tech called deep learning can help by looking at brain images to find clues about each person's epilepsy.
+-->Epilepsy is a condition where people have recurring seizures. Figuring out the best treatment can be tricky because it varies a lot from person to person. But now, new tech called deep learning can help by looking at brain images to find clues about each person's epilepsy.<br>
+-->Deep learning is like a super-smart computer program. It looks at lots of brain images and finds patterns that might show when a seizure could happen. This helps doctors make personalized plans for each person, like adjusting medicines or suggesting lifestyle changes to reduce seizures.<br>
 
-Deep learning is like a super-smart computer program. It looks at lots of brain images and finds patterns that might show when a seizure could happen. This helps doctors make personalized plans for each person, like adjusting medicines or suggesting lifestyle changes to reduce seizures.
+-->So, using deep learning with brain images can help doctors better understand and treat epilepsy in a way that fits each person's needs.<br>
 
-So, using deep learning with brain images can help doctors better understand and treat epilepsy in a way that fits each person's needs.
+# Problem Identification
+-->Epilepsy is a disorder of the brain caused by repeated seizures. A seizure is usually defined as a sudden alteration of behavior due to a temporary change in the electrical functioning of the brain.<br>
+-->Understanding epilepsy issues is crucial for improvement. Diagnosing and treating epilepsy can be tricky due to individual differences. Reliable seizure prediction tools are essential.<br> 
+-->Beyond medical aspects, supporting individuals in all aspects of life is important. Disparities in access to assistance are unfair, and some may feel excluded due to epilepsy.<br>
+-->Special attention is needed for the elderly and children with epilepsy. While using wearable technology is a good idea, caution is required. Collaboration among healthcare professionals, scientists, and advocates is necessary to enhance epilepsy care.<br>
+-->To simplify the process, we've opted to develop a deep learning model capable of forecasting epilepsy occurrences in advance. This model will not only predict seizures but also provide personalized precautions and warnings to individuals, aiming to enhance their overall quality of life.<br>
 
-# Problem Statement
-Millions of individuals worldwide suffer with epilepsy, a neurological condition marked by recurring seizures. The unpredictable nature of seizures is a substantial obstacle to the management of epilepsy, as it makes it challenging for individuals to adopt preventative measures. The goal of this project is to create an early warning system that uses machine learning algorithms to forecast and notify users of approaching epileptic episodes.
+
 
 # Objective of Problem
-Seizure Prediction & Warning : ML algorithm can analyze data & other relevant information to predict when a seizure is likely to occur. This can provide individuals with epilepsy and their caregivers with a warning, allowing them to take precautionary measures, such as moving to a safer location or taking medication, to minimize the impact of the seizure.<br>
+-->Develop a deep learning Algorithm for personalized detection and precautionary Guidance for Epilepsy Disease for enhancing the safety.<br>
+-->Personalized Care: DL models can be tailored to individual patients, taking into account their specific seizure patterns and triggers. This enables personalized care plans and interventions, which can be more effective in managing epilepsy.<br>
+-->Reduced Hospitalizations: Early prediction can lead to reduced hospital admissions due to epilepsy related seizures, which can lower healthcare costs and improve the overall health of patients.<br>
 
-Improved Quality of Life : Early prediction & warning can help individuals with epilepsy lead more normal lives. By avoiding seizures people with epilepsy can engage in daily activities,drive & work with greater independence.<br>
-
-Reduced Hospitalizations : Early prediction can lead to reduced hospital admissions due to epilepsy-related seizures, which can lower healthcare costs and improve the overall health of patients.<br>
-
-Personalized Care : ML models can be tailored to individual patients, taking into account their specific seizure patterns and triggers. This enables personalized care plans and interventions, which can be more effective in managing epilepsy.
 
 # Input Data/Tools Used
 Data Input Format<br>
-Patinent fills all the details.<br>
+<li>Patinent sumbit required details such as MRI scans,Personal details.</li><br>
 
 ML Model by using training & testing data give’s result.<br>
 
