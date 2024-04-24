@@ -44,22 +44,22 @@ Tremor, a neurological condition, produces uncontrollable convulsions due to unu
 
 
 # Input Data/Tools Used
-##Data Input Format<br>
+### Data Input Format<br>
 <li>Patinent sumbit required details such as MRI scans,Personal details.</li>
 <li>MRI images preprocessed for compatibility with deep learning models.</li>
 <li>Data augmentation techniques applied to increase the diversity and size of the training dataset.</li>
 <li>Features extracted from MRI images using convolutional neural networks (CNNs) or similar architectures, capturing relevant patterns and structures indicative of epilepsy.</li>
 <li>Deplays patient affeted or not and give precautions & warning.</li>
 
-##Tools Used<br>
-Software Tools Requirements:<br>
+### Tools Used<br>
+##### Software Tools Requirements:<br>
 <li>Programming Language:Python for deep learning model implementation.</li>
 <li>Deep Learning Frameworks: TensorFlow, Keras, or PyTorch for building and training CNN models.</li>
 <li>Libraries: Pandas and NumPy for data manipulation and preprocessing.</li>
 <li>Web Development: Flask for web application development.</li>
 <li>User Interface: HTML/CSS for designing the user interface.</li>
 <li>Data Management: Excel or CSV for storing and managing patient data.</li>
-Hardware Requirements:<br>
+<h4>Hardware Requirements:<br></h4>
 <li>Accelerated Computing: GPUs or cloud-based services for deep learning model training and inference.</li>
 <li>Computing Devices: Laptops, desktops, or servers for running the web application and managing data.</li>
 
@@ -134,8 +134,8 @@ Hardware Requirements:<br>
 <p><b>Confusion matrix for training dataset</b>  </p>
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwSeKkQvALIHI6opZ7wp-3qCdiqQ0Edn3VRkuKxjrPnY8Ypz515HzQOQUpIphR4TK41kvJQfQdCC95s0FgOBuJ_iWfvYfM4hn-ZCjo_5JFmH-j0uZ2VZfqg8qZ8sTGWtXYj5facvBzXJTH28hvxhr5WvQieknH7zO69GtmkOyrmbJSJENxsEWm_t8UfQ/s674/Cm_of_TestD.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="561" data-original-width="674" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwSeKkQvALIHI6opZ7wp-3qCdiqQ0Edn3VRkuKxjrPnY8Ypz515HzQOQUpIphR4TK41kvJQfQdCC95s0FgOBuJ_iWfvYfM4hn-ZCjo_5JFmH-j0uZ2VZfqg8qZ8sTGWtXYj5facvBzXJTH28hvxhr5WvQieknH7zO69GtmkOyrmbJSJENxsEWm_t8UfQ/s600/Cm_of_TestD.jpg"/></a></div>
+<li><b>Confusion matrix for testing dataset</b>  </li>
 
-<p><b>Confusion matrix for testing dataset</b>  </p>
 
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjzmtA2rDNkzzf7AGM2kajCiyb4JfMW3PYAj-mKbz_1pWH1ALC5X3zReO5gTdThKz0IYSY7YRkkpH6L0xLhI_O9ecLnYYbFjcNxsOgzSH16PjhIAZXZMaVnexRrbrGJc6b5c2IwQuSo2ZsG-meos1-ARF6OM9YccjzfMlay82x_fb37K3Cqc2XnPKhFg/s576/T&amp;V_acc.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="455" data-original-width="576" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjzmtA2rDNkzzf7AGM2kajCiyb4JfMW3PYAj-mKbz_1pWH1ALC5X3zReO5gTdThKz0IYSY7YRkkpH6L0xLhI_O9ecLnYYbFjcNxsOgzSH16PjhIAZXZMaVnexRrbrGJc6b5c2IwQuSo2ZsG-meos1-ARF6OM9YccjzfMlay82x_fb37K3Cqc2XnPKhFg/s600/T&amp;V_acc.jpg"/></a></div><div class="separator" style="clear: both;">
@@ -159,27 +159,27 @@ Hardware Requirements:<br>
 <p>The following web application was built using Flask. A lightweight API is built that loads the model from a pkl file. When a user uploads an image, the image is pre-processed and then run through the model to obtain a prediction.
 This prediction, and probability of class is then passed to a render template. </p>
 
-<h3>Home Page</h3>
+<h4>Home Page</h4>
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYi_vm_TBmzCB_AJ-diEPJUwSSStnJXIRtT3PPDe2MerInwRBLByFwXfVXzhSfj7W81bfhvrMBVMsEd3WJc5b8orK5CwvmArkH39-0mUowT-soxv4HTRZK-sQjCZYny0PPgK_YPwL7aU8ZGt29Jz90DluiWKXCmv1pz7Xxx4PhILHAkVPxbXmd8ZzIwg/s1920/e1.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="921" data-original-width="1920" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYi_vm_TBmzCB_AJ-diEPJUwSSStnJXIRtT3PPDe2MerInwRBLByFwXfVXzhSfj7W81bfhvrMBVMsEd3WJc5b8orK5CwvmArkH39-0mUowT-soxv4HTRZK-sQjCZYny0PPgK_YPwL7aU8ZGt29Jz90DluiWKXCmv1pz7Xxx4PhILHAkVPxbXmd8ZzIwg/s600/e1.JPG"/></a></div>
 
 
-<h3>Register Page</h3>
+<h4>Register Page</h4>
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCNhvPZ_EuloaKD3CQ81H7Fhvzuft5qeD4GeviQrxiWIzRxcimVWhSG6DYHwsD77fHBLq1ZFa9XoEPLjtaUaB-S6QH8xs5-_e1G0N8-OVA28Ho3inPkta1fDJTZqXJk2M5vS0C9yZS7TlEDYkHK7pVidZGBUU28PiLJm-3vTnvkIuyxDn60f7RX7aPGA/s1920/e2.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="919" data-original-width="1920" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCNhvPZ_EuloaKD3CQ81H7Fhvzuft5qeD4GeviQrxiWIzRxcimVWhSG6DYHwsD77fHBLq1ZFa9XoEPLjtaUaB-S6QH8xs5-_e1G0N8-OVA28Ho3inPkta1fDJTZqXJk2M5vS0C9yZS7TlEDYkHK7pVidZGBUU28PiLJm-3vTnvkIuyxDn60f7RX7aPGA/s600/e2.JPG"/></a></div>
     
 
-<h3>Login Page</h3>
+<h4>Login Page</h4>
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjemhHXeLblF4uaL1_ZdpYlaGRzYA3E4z1jmBo4VLolXipcaWHle2b4fio7Ok3KcQxyVyyr0aYizqpWue1sAL5ihFmNNSIWuznel8hlCtXQ7pMY-aTWtHIW8Kt-C8UiLvN-4-BT2XBUAsS1ft2Q_iM2kWIE3uOknqiYJhOGdwoJsn2hdAiJIoRXZO4cwQ/s1920/e3.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="913" data-original-width="1920" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjemhHXeLblF4uaL1_ZdpYlaGRzYA3E4z1jmBo4VLolXipcaWHle2b4fio7Ok3KcQxyVyyr0aYizqpWue1sAL5ihFmNNSIWuznel8hlCtXQ7pMY-aTWtHIW8Kt-C8UiLvN-4-BT2XBUAsS1ft2Q_iM2kWIE3uOknqiYJhOGdwoJsn2hdAiJIoRXZO4cwQ/s600/e3.JPG"/></a></div>
 
 
-<h3>Predict Page</h3>
+<h4>Predict Page</h4>
 
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO7VLAb-Q8zkxrznK5PHFhQnpT1vX_UN4qEia9Al_bhwxIjX1L3WgCJJVZ89YpT5HL-lND_46ShMMAYZqdGVxfTWrRLHCyXCNfVkA0P96GRps7CxQ6zfJYk0R3iDDrWh484aZW52PQvFNiteQtHvRfD5qOkeBNiFHJ3sMgCxS6GW2DgpsL8sJPVyPzUg/s1920/e4.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="913" data-original-width="1920" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO7VLAb-Q8zkxrznK5PHFhQnpT1vX_UN4qEia9Al_bhwxIjX1L3WgCJJVZ89YpT5HL-lND_46ShMMAYZqdGVxfTWrRLHCyXCNfVkA0P96GRps7CxQ6zfJYk0R3iDDrWh484aZW52PQvFNiteQtHvRfD5qOkeBNiFHJ3sMgCxS6GW2DgpsL8sJPVyPzUg/s600/e4.JPG"/></a></div><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhQUPcEsqZ6XItcJl2__q6PHCC8-FIXfUIVNeqvSzNazIzldSEuaYCOiUCpVoGOoslD20ZlLOSvPsTopnDeC1d-yFnup6yHeXohf6_kgnqrz5Q4-hYLInFqxplyG6P_CmipBJNVr96EGgq676Zbpq3wcr_4HRN_vvlq0D_BsE3OI40DRU3sllQ-e3A6A/s1506/e5.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="941" data-original-width="1506" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhQUPcEsqZ6XItcJl2__q6PHCC8-FIXfUIVNeqvSzNazIzldSEuaYCOiUCpVoGOoslD20ZlLOSvPsTopnDeC1d-yFnup6yHeXohf6_kgnqrz5Q4-hYLInFqxplyG6P_CmipBJNVr96EGgq676Zbpq3wcr_4HRN_vvlq0D_BsE3OI40DRU3sllQ-e3A6A/s600/e5.JPG"/></a></div>
 
 
-<h3>Results</h3>
+<h4>Results Page</h4>
 
 <p><b>Case 1: Affected Person</b></p>
 
@@ -193,20 +193,23 @@ This prediction, and probability of class is then passed to a render template. <
 
 
 # Future Scope
-## 1 . Enhanced Image Analysis Techniques:</h3> Develop more advanced image analysis techniques using deep learning to extract intricate details and patterns from brain images related to epilepsy. This includes exploring new neural network architectures, feature extraction methods, and image augmentation techniques.
-<br /><h3>2 . Multi-Modal Data Integration:</h3>Integrate multiple imaging modalities such as MRI, CT scans, PET scans, and EEG data to create a comprehensive view of brain activity and abnormalities associated with epilepsy. Combining data from different sources can improve diagnostic accuracy and personalized treatment planning.
-<br /><h3>3 . Real-Time Monitoring and Prediction:</h3> Implement real-time monitoring systems that continuously analyze brain images for signs of epileptic activity. Develop predictive models that can forecast epileptic events before they occur, allowing for timely intervention and precautionary measures.
-<br /><h3>4 . Longitudinal Analysis and Progression Tracking: </h3>Perform longitudinal analysis of brain images over time to track disease progression, treatment effectiveness, and potential changes in epilepsy patterns. Use deep learning algorithms to identify subtle changes and predict future outcomes for personalized patient management.
-<br /><h3>5 . Genomic and Phenotypic Integration:</h3>Integrate genomic data and phenotypic information (such as patient demographics, medical history, and lifestyle factors) with brain image analysis to uncover genetic predispositions, personalized risk factors, and tailored treatment options for individuals with epilepsy.
-
-<br /><h3>6. Explainable AI for Clinical Decision Support:</h3>Develop explainable AI models that can provide transparent explanations for diagnostic and prognostic decisions based on brain image analysis. This aids healthcare professionals in understanding the rationale behind AI-driven recommendations and improves trust in AI systems.
-
-<br /><h3>7 . Virtual Reality and Simulation for Training: </h3>Utilize virtual reality (VR) environments and simulation platforms for training deep learning models on large-scale image datasets. VR-based simulations can enhance model generalization, adaptability, and robustness to diverse imaging scenarios.
-<p></p>
-
+### 1 . Enhanced Image Analysis Techniques:
+Develop more advanced image analysis techniques using deep learning to extract intricate details and patterns from brain images related to epilepsy. This includes exploring new neural network architectures, feature extraction methods, and image augmentation techniques.
+### 2 . Multi-Modal Data Integration:
+Integrate multiple imaging modalities such as MRI, CT scans, PET scans, and EEG data to create a comprehensive view of brain activity and abnormalities associated with epilepsy. Combining data from different sources can improve diagnostic accuracy and personalized treatment planning.
+### 3 . Real-Time Monitoring and Prediction:
+Implement real-time monitoring systems that continuously analyze brain images for signs of epileptic activity. Develop predictive models that can forecast epileptic events before they occur, allowing for timely intervention and precautionary measures.
+### 4 . Longitudinal Analysis and Progression Tracking:
+Perform longitudinal analysis of brain images over time to track disease progression, treatment effectiveness, and potential changes in epilepsy patterns. Use deep learning algorithms to identify subtle changes and predict future outcomes for personalized patient management.
+### 5 . Genomic and Phenotypic Integration:
+Integrate genomic data and phenotypic information (such as patient demographics, medical history, and lifestyle factors) with brain image analysis to uncover genetic predispositions, personalized risk factors, and tailored treatment options for individuals with epilepsy.
+### 6. Explainable AI for Clinical Decision Support:
+Develop explainable AI models that can provide transparent explanations for diagnostic and prognostic decisions based on brain image analysis. This aids healthcare professionals in understanding the rationale behind AI-driven recommendations and improves trust in AI systems.
+### 7 . Virtual Reality and Simulation for Training:
+Utilize virtual reality (VR) environments and simulation platforms for training deep learning models on large-scale image datasets. VR-based simulations can enhance model generalization, adaptability, and robustness to diverse imaging scenarios.
 
 # Conclusion
-    <p>An important advancement in neurological care is the use of deep learning techniques for customized identification and preventive advice in the management of epilepsy. Individualized diagnosis and preventative actions can be put into place by using algorithms to examine patterns of brain activity. This improves patient outcomes and seizure control. This method not only improves on conventional diagnostic methods but also gives medical personnel the ability to precisely and promptly intervene, giving people with epilepsy hope for a higher quality of life. Deep learning has great promise for revolutionizing the management of epilepsy and ushering in a new era of customized care in neurological medicine, provided research in this subject continues to advance.</p>
+An important advancement in neurological care is the use of deep learning techniques for customized identification and preventive advice in the management of epilepsy. Individualized diagnosis and preventative actions can be put into place by using algorithms to examine patterns of brain activity. This improves patient outcomes and seizure control. This method not only improves on conventional diagnostic methods but also gives medical personnel the ability to precisely and promptly intervene, giving people with epilepsy hope for a higher quality of life. Deep learning has great promise for revolutionizing the management of epilepsy and ushering in a new era of customized care in neurological medicine, provided research in this subject continues to advance.
 
 
 # References
