@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Detect Affected or Not</title>
+</head>
+<body>
+
+  <!-- Show Banner -->
+  <div>
+    <img src="static/images/Epilepsy_title_pic.png" class="w3-border w3-padding" alt="Indian AI Production" style="width:100%">
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm">
+        <span class="border border-primary">
+          <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+        </span>
+      </div>
+
+      <div class="col-sm">
+        <h1>You are <span style="color: {% if pred_output == 'Affected' %} red {% else %} green {% endif %};" class="badge badge-secondary">{{ pred_output }}</span></h1>
+        {% if pred_output == 'Affected' %}
+        <h3>Precautions:</h3>
+        <ul>
+          <li>Medication Adherence: Ensure that prescribed anti-seizure medications are taken regularly and as directed by the healthcare provider.</li>
+          <li>Healthy Lifestyle: Maintain a balanced diet, get regular exercise, and sufficient sleep to support overall well-being.</li>
+          <li>Safety Measures: Create a safe environment by removing potential hazards that could cause injury during a seizure, such as sharp objects or hard surfaces.</li>
+          <li>Regular Medical Follow-ups: Attend scheduled appointments with healthcare professionals for check-ups and adjustments to treatment plans if needed.</li>
+          <li>Seizure Response Plan: Develop and communicate a seizure response plan with family members, caregivers, and coworkers outlining what to do during a seizure and when to seek medical help.</li>
+          <li>Avoid Triggers: Identify and avoid known triggers that may increase the likelihood of seizures, such as lack of sleep, stress, or certain medications.</li>
+          <li>Seizure Alert Devices: Consider using seizure alert devices or apps that can notify caregivers or emergency services during a seizure.</li>
+          <li>Emergency Preparedness: Have an emergency kit ready with important medical information, emergency contacts, and necessary medications in case of unexpected seizures.</li>
+        </ul>
+        {% else %}
+        <h3>Congratulations! You are safe.</h3>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
